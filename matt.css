@@ -1,0 +1,891 @@
+html, body {
+  height: 100%;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: seashell;
+  background-color: #645986;
+  background-image: url(city.jpg);
+  z-index: 1;
+  /*position: relative;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  
+
+  }
+
+/*
+ * Formatting the header area
+ */
+
+header{
+  background-color: #4E0250;
+  height: 60px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*border: 3px white solid;*/
+  min-width: 600px;
+}
+
+footer {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  min-width: 200px;
+  margin-top: 600px;
+}
+
+.awaylinks {
+  background-color: #4E0250;
+  width: 100%;
+  opacity: .9;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  top: 50%;
+
+
+}
+
+.truebottom {
+  height:  65px;
+  background-color: #645986;
+  opacity: .8;
+  text-align: center;
+}
+
+.thanks {
+  font-weight: bold;
+  padding-top: 15px;
+  opacity: 1;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 44px;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+  display: inline-block;
+  /*border: 3px white solid;*/
+  padding-left: 20px;
+  padding-top:  10px;
+  padding-right: 10px;
+  white-space: nowrap;
+
+}
+
+nav {
+    display: inline-block;
+    /*border: 3px white solid;*/
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   line-height: 2em;        /* fallback */
+   max-height: 4em;       /* fallback */
+
+}
+
+nav span{
+    padding: 20px 10px;
+}
+
+a {
+    color: seashell;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+
+}
+
+a:hover {
+  color: #8FE388;
+  text-shadow: 1px 1px gray;
+}
+
+a:active {
+  color: #4E0250;
+  text-shadow: 0px 0px #4E0250;
+}
+
+
+/*
+ * Center the body content
+ */
+
+.homebox {
+  margin-top: 75px;
+  height:  450px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.home {
+  margin-top: 10px;
+  height:  450px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+.home h1 {
+
+}
+
+.curvebox {
+  
+  margin-top: 67px;
+  height:  450px;
+  width: 75%;
+  max-width: 925px;
+  background-color: #801A86;
+  transform: skew(-11deg);
+  z-index: 1;
+  position: absolute;
+  opacity: .9;
+  margin: auto;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+}
+
+img.propic {
+  width: auto;
+  height: 350px;
+  margin-top: 0px;
+  margin-right: 22px;
+  border-radius: 15%;
+}
+
+
+.introduction {
+  height:  400px;
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0, auto;
+  /*border: 3px white solid;*/
+}
+
+.introblurbs {
+    text-align: left;
+    width: 500px;
+    height: 340px;
+    padding: 5px;
+    margin: 0px 10px 10px 40px;
+    font-size: 22px;
+    /*border: 3px white solid;*/
+    min-width: 500px;
+}
+
+
+
+
+
+/* End of Home Page Layout  */
+
+
+/*Start Trasnisition Layout */
+
+.transitionInfoBox {
+  margin-top: 535px;
+  height:  35px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4E0250;
+  opacity: .9;
+  align-items: center;
+  justify-content: space-between;
+  /*border: 3px white solid;*/
+  min-width: 600px;
+
+}
+
+.awaylinks {
+  margin: auto;
+}
+
+.awaylinks nav span{
+  padding: 0px 150px;
+}
+
+
+
+
+
+/*End Trasnisition Layout */
+
+
+/*Start About Layout*/
+
+.aboutbox {
+  margin-top: 570px;
+  height:  500px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.about {
+  margin-top: 0px;
+  height:  450px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #8FE388;
+  text-shadow: 1px 1px gray;
+  /*border: 3px white solid;*/
+}
+
+.aboutcurvebox {
+  
+  height:  450px;
+  width: 75%;
+  max-width: 925px;
+  background-color: #4E0250;
+  z-index: 2;
+  position: absolute;
+  margin: auto;
+  margin-top: 0px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+
+}
+
+.aboutbackgroundbox {
+  
+  margin-top: 528px;
+  height:  500px;
+  width: 75%;
+  transform: skew(11deg);
+  background-color: #801A86;
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  opacity: .4;
+  /*border: 3px white solid;*/
+}
+
+/*about text and buttons*/
+
+.aboutButtonBox {
+  width: 900px;
+  margin: auto;
+  height: 352px;
+  margin-top: 5px;
+  padding-top: 0px;
+  /*border: 3px white solid;*/
+}
+
+.aboutWordBox, .eduWordBox, .skillWordBox  {
+  text-align: left;
+  width: 675px;
+  height: 400px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  /*border: 3px white solid;*/ 
+}
+
+.aboutButton{
+  background-color: #58BC82; /* Green */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: none;
+  width: 200px;
+  color: white;
+  margin: 25px 10px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+
+}
+
+.aboutButton:hover{
+  background-color: #645986; 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+.aboutButton:active{
+  padding-right: 38px;
+  background-color: #4E0250; 
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24), 0 0px 0px 0 rgba(0,0,0,0.19);
+  display: all;
+}
+
+.aboutIntro, .eduIntro, .skillIntro {
+  margin-top: 55px;
+  margin-left: -20px;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 28px;
+  opacity: .4;
+}
+
+.hidden {
+  display: none;
+}
+
+.nothidden {
+  display: all;
+}
+
+
+/*
+ *  About Back Button
+ */
+
+
+.aboutButtonBack{
+  background-color: #58BC82; /* Green */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: none;
+  width: 200px;
+  color: white;
+  margin: 25px 10px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  display: none;
+
+}
+
+.aboutButtonBack:hover{
+  background-color: #645986; 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+.aboutButtonBack:active{
+  padding-right: 38px;
+  background-color: #4E0250; 
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24), 0 0px 0px 0 rgba(0,0,0,0.19);
+  display: all;
+}
+
+
+
+/*
+ *  About Section
+ */
+
+.highlightstext {
+  color: #8FE388;
+  text-shadow: 1px 1px gray;
+}
+
+.aboutList1{
+  margin-top: -15px;
+}
+
+.aboutList2{
+  margin-top: -15px;
+}
+
+.aboutList1 li{
+  padding: 6px;
+ }
+
+.aboutList2 li{
+  padding: 12px;
+ }
+
+.aboutList3 li{
+  padding: 15px;
+ }
+
+
+
+
+
+
+/*Start Education Section*/
+
+.edubox {
+  margin-top: 1070px;
+  height:  500px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.about {
+  margin-top: 0px;
+  height:  450px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+.educurvebox {
+  
+  height:  450px;
+  width: 75%;
+  max-width: 925px;
+  background-color: #4E0250;
+  z-index: 2;
+  position: absolute;
+  margin: auto;
+  margin-top: 0px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+}
+
+.edubackgroundbox {
+  
+  margin-top: 528px;
+  height:  500px;
+  width: 75%;
+  transform: skew(-11deg);
+  background-color: #801A86;
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  opacity: .4;
+  /*border: 3px white solid;*/
+}
+
+
+.educationSpecs {
+  padding-left: 60px;
+}
+
+.cert img {
+    width: 75%;
+    height: auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.allcerts{
+  padding-left: 40px;
+}
+
+.cert {
+    /*border: 3px white solid;*/
+    width: 30%;
+    padding-top: 120px;
+    padding-left: 10px;
+    margin: auto;
+    border-radius: 15px;
+    display: inline-block;
+    }
+
+.courseList li{
+  padding-top: 12px;
+}
+
+.courseList li a{
+  font-size: 18px;
+  color: seashell;
+}
+
+.courseList li a:hover{
+  color: #58BC82;
+}
+
+.courseList li a:active{
+  color: #4E0250;
+}
+
+
+.courseList li{
+  padding-top: 12px;
+}
+
+.courseList li a{
+  color: seashell;
+}
+
+.courseList li a:hover{
+  color: #58BC82;
+}
+
+.courseList li a:active{
+  color: #4E0250;
+}
+
+
+
+/*Skills Section Start */
+
+
+.skillbox {
+  margin-top: 1570px;
+  height:  500px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.about {
+  margin-top: 0px;
+  height:  450px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+.skillcurvebox {
+  
+  height:  450px;
+  width: 75%;
+  max-width: 925px;
+  background-color: #4E0250;
+  z-index: 2;
+  position: absolute;
+  margin: auto;
+  margin-top: 0px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+}
+
+.skillbackgroundbox {
+  
+  margin-top: 528px;
+  height:  500px;
+  width: 75%;
+  transform: skew(11deg);
+  background-color: #801A86;
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  opacity: .4;
+  /*border: 3px white solid;*/
+}
+
+.skillList {
+    /*border: 3px white solid;*/
+    width: 43%;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+    display: inline-block;
+
+    }
+
+  .skillList li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+  }
+
+/*Skills Section End */
+
+
+
+/*Minimum Screen Settings*/
+
+
+@media (max-width: 900px) {
+
+  .awaylinks nav span{
+    padding: 0px 55px;
+  }
+
+
+}
+
+
+
+
+/*Curve adjust*/
+
+@media (max-width: 1100px) {
+  
+  .curvebox {
+      margin-top: 67px;
+      height:  450px;
+      width: 95%;
+      background-color: #801A86;
+      transform: skew(0deg);
+      z-index: 1;
+      position: absolute;
+      opacity: .9;
+      margin: auto;
+  
+  }
+}
+
+
+/*Min Width settings*/
+
+@media (max-width: 900px) {
+    
+
+    img.propic {
+      display: none;
+    }
+
+    .curvebox {
+      margin-top: 67px;
+      height:  450px;
+      width: 100%;
+      background-color: #801A86;
+      transform: skew(0deg);
+      z-index: 1;
+      position: absolute;
+      opacity: .9;
+      margin: auto;
+  }
+
+.courseList li{
+  padding-top: 8px;
+}
+
+.courseList li a{
+  font-size: 16px;
+  color: seashell;
+}
+
+}
+
+@media (max-width: 900px) {
+
+  .awaylinks nav span{
+    padding: 0px 55px;
+  }
+
+
+}
+
+
+/*About Min Settings*/
+
+/*Min Width settings*/
+
+@media (max-width: 900px) {
+
+  .aboutbox {
+  margin-top: 570px;
+  height:  500px;
+  width: 100%;
+  /*border: 3px white solid;*/
+  position: absolute;
+  z-index: 2;
+
+}
+
+.aboutButtonBox {
+  width: 700px;
+  height: 50px;
+  padding-top: 3px;
+  /*border: 3px white solid;*/
+  position: absolute;
+}
+    
+.aboutWordBox, .eduWordBox {
+  text-align: left;
+  margin-top: 45px;
+  width: 90%;
+  height: 375px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  /*border: 3px white solid;*/
+  position: absolute;
+  min-width: 600px;
+}
+
+
+.aboutButton{
+  background-color: #58BC82; /* Green */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: none;
+  width: 200px;
+  color: white;
+  margin: 5px 0px;
+  padding: 3px 10px 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+
+}
+
+.aboutcurvebox, .educurvebox, .skillcurvebox {
+  
+  height:  475px;
+  width: 100%;
+  background-color: #4E0250;
+  z-index: 2;
+  position: absolute;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.aboutbackgroundbox, .edubackgroundbox, .skillbackgroundbox {
+  
+  margin-top: 528px;
+  height:  500px;
+  width: 100%;
+  transform: skew(0deg);
+  background-color: #801A86;
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  opacity: .4;
+  /*border: 3px white solid;*/
+}
+   
+}
+
+@media (max-width: 1200px) {
+  
+  .aboutcurvebox, .educurvebox, .skillcurvebox {
+      height:  475px;
+      width: 100%;
+      background-color: #4E0250;
+      z-index: 2;
+      position: absolute;
+      margin: auto;
+      margin-top: 0px;
+  
+  }
+
+  .aboutbackgroundbox, .edubackgroundbox, .skillbackgroundbox {
+      width: 100%;
+      transform: skew(0deg);
+  }
+}
+
+.skillList {
+    /*border: 3px white solid;*/
+    width: 43%;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    display: inline-block;
+
+    }
+
+
+
+
+
+
+    /* Slider */
+
+    /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
